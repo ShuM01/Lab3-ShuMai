@@ -41,7 +41,7 @@ func (t Triangle) Perimeter() float64 {
 	return 3 * t.Base
 }
 
-// Pointer receiver Scale
+// Points scale
 func (r *Rectangle) Scale(factor float64) {
 	r.Width *= factor
 	r.Height *= factor
